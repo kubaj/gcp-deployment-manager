@@ -1,0 +1,13 @@
+imports:
+- path: vm-template.py
+
+resources:
+- name: calchas
+  type: vm-template.py
+  properties:
+    name: calchas
+    zone: europe-west1-d
+    nodeCount: 3
+    machineType: 'f1-micro'
+    preemptibleInstances: false
+    clusterVersion: '1.9.7'
