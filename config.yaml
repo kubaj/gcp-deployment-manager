@@ -11,3 +11,10 @@ resources:
     machineType: 'f1-micro'
     preemptibleInstances: false
     clusterVersion: '1.9.7'
+    istio:
+      version: '0.8.0'
+      enableMutualTLS: true
+      enableGrafana: true
+      enablePrometheus: true
+      enableTracing: true
+      enableServiceGraph: true
